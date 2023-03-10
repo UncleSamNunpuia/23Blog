@@ -1,0 +1,17 @@
+.tt_body {
+  margin: 10px;
+  border: solid;
+  -webkit-box-shadow: inset;
+          box-shadow: inset;
+}
+
+.tt_body .rect {
+  background-color: darkkhaki;
+}
+
+.tt_body .rect > .tt_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=tt_home.css.map */

@@ -1,0 +1,41 @@
+{%extends 'ProjectBase.html'%}
+<!--  -->
+{% load static %}
+<!--  -->
+{% block cssLink_A_tt %}
+<link rel="stylesheet" type="text/css" href="{% static '/css/tt_home.css' %}" />
+{% endblock cssLink_A_tt %}
+<!--  -->
+
+{% block div_A_tt %}
+<section class="tt_body">
+  here
+  <div class="rect">
+    <img
+      src="{% static '/mediafiles/svg/thalaiteThian.svg' %}"
+      alt="My Image"
+      class="tt_logo"
+    />
+  </div>
+  <!-- pagination -->
+  <br />
+  <nav aria-label="...">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</section>
+
+<!--  -->
+{% endblock div_A_tt%}
+<div class="con1"></div>
